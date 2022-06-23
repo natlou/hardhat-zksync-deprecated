@@ -2,7 +2,7 @@ require("@matterlabs/hardhat-zksync-deploy");
 require("@matterlabs/hardhat-zksync-solc");
 
 module.exports = {
-  zksolc: {  //zk solidity compiler 
+  zksolc: {
     version: "0.1.0",
     compilerSource: "docker",
     settings: {
